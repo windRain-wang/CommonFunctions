@@ -1,10 +1,9 @@
 export function handleThousandNumber(
   value: number,
-  groupSeparator = ","
+  groupSeparator: string = ","
 ): string {
   const val = String(value);
   const cells = val.match(/^(-?)(\d*)(\.(\d+))?$/);
-  console.log(1112);
   if (!cells) {
     return val;
   } else {
