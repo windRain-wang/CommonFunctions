@@ -30,5 +30,8 @@
   "exclude": [
     "dist",
     "node_modules",
+    "vite.config.ts",
+    "test/*.test.ts",
+    "utiils/*/*.test.ts"
   ]
 }
