@@ -6,8 +6,9 @@
   "scripts": {
     "test": "vitest",
     "build": "tsc --project tsconfig.build.json",
+    "test:ui": "vitest --ui",
     "docs:dev": "pnpm build & vitepress dev utils",
-    "test:ui": "vitest --ui"
+    "docs:build": "pnpm build & vitepress build utils"
   },
   "keywords": [],
   "author": "",
