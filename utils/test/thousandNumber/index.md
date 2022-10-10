@@ -1,3 +1,6 @@
 # 处理千分位
 
-<<< @/test/thousandNumber/index.js
+<<< @/test/thousandNumber/func/formatWithMod.js
+
+<<< @/test/thousandNumber/func/handleThousandNumber.js
+
