@@ -1,28 +1,28 @@
-// import { describe, test, expect } from "vitest";
-import * as funcs from "./index";
+import formatWithMod from "./func/formatWithMod";
+import handleThousandNumber from "./func/handleThousandNumber";
 
-const funcClone: any = funcs;
+const funcs = [formatWithMod, handleThousandNumber];
 
-for (const key in funcClone) {
+for (const key in funcs) {
   describe("数字千分位处理 - " + key, () => {
-    test("整数", () => {
-      const result = funcClone[key](123456);
+    it("整数", () => {
+      const result = funcs[key](123456);
       expect(result).toBe("123,456");
     });
-    test("小数", () => {
-      const result = funcClone[key](123456.12399);
+    it("小数", () => {
+      const result = funcs[key](123456.12399);
       expect(result).toBe("123,456.12399");
     });
-    test("negative float test", () => {
-      const result = funcClone[key](-123456.12399);
+    it("negative float test", () => {
+      const result = funcs[key](-123456.12399);
       expect(result).toBe("-123,456.12399");
     });
-    test("zero point test", () => {
-      const result = funcClone[key](0.12399);
+    it("zero point test", () => {
+      const result = funcs[key](0.12399);
       expect(result).toBe("0.12399");
     });
-    test("four digit point test", () => {
-      const result = funcClone[key](1236);
+    it("four digit point test", () => {
+      const result = funcs[key](1236);
       expect(result).toBe("1,236");
     });
   });
