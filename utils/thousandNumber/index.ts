@@ -1,3 +1,9 @@
+/**
+ * 数字千分位处理
+ * @param {Number} value 处理的数字
+ * @param {string} groupSeparator 分隔符
+ * @returns String
+ */
 export function handleThousandNumber(
   value: number,
   groupSeparator: string = ","
