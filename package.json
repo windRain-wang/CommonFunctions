@@ -6,12 +6,14 @@
   "scripts": {
     "test": "vitest",
     "build": "tsc --project tsconfig.build.json",
-    "docs:dev": "pnpm build & vitepress dev utils"
+    "docs:dev": "pnpm build & vitepress dev utils",
+    "test:ui": "vitest --ui"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@vitest/ui": "^0.24.0",
     "typescript": "^4.8.4",
     "vitepress": "1.0.0-alpha.19",
     "vitest": "^0.24.0"
