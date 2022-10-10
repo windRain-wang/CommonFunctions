@@ -15,7 +15,7 @@ export default defineConfig({
   // },
 
   themeConfig: {
-    nav: [{ text: "千分位处理", link: "/thousandNumber/index" }],
+    nav: [{ text: "测试", link: "/test/index" }],
 
     sidebar: sidebarConfig(),
 
@@ -128,7 +128,10 @@ function sidebarConfig() {
   return [
     {
       text: "工具函数",
-      items: [{ text: "千分位处理", link: "/thousandNumber/index" }],
+      items: [
+        { text: "千分位处理", link: "/test/thousandNumber/index" },
+        { text: "UUID生成", link: "/test/create-uuid/index" }
+      ],
     },
   ];
 }
