@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "install": "yarn ",
     "test": "vitest",
     "build": "tsc --project tsconfig.build.json",
     "docs:dev": "pnpm build & vitepress dev utils"
