@@ -2,17 +2,7 @@
 layout: home
 
 hero:
-  name: VitePress
-  text: Vite & Vue powered static site generator.
+  name: Common Function
+  text: Common Function.
   tagline: Lorem ipsum...
-  image:
-    src: /logo.png
-    alt: VitePress
-  actions:
-    - theme: brand
-      text: Get Started
-      link: /test/index
-    - theme: alt
-      text: View on GitHub
-      link: https://github.com/vuejs/vitepress
 ---

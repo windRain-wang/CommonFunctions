@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress";
 // import { version } from "../../package.json";
 
 export default defineConfig({
-  lang: "en-US",
+  lang: "cn-Zh",
   title: "Common Function",
 
   lastUpdated: true,
@@ -130,7 +130,7 @@ function sidebarConfig() {
       text: "工具函数",
       items: [
         { text: "千分位处理", link: "/test/thousandNumber/index" },
-        { text: "UUID生成", link: "/test/create-uuid/index" }
+        { text: "UUID生成", link: "/test/create-uuid/index" },
       ],
     },
   ];
