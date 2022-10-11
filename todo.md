@@ -8,4 +8,7 @@
 - Q:比如处理千分位的，有多个方法，应该如何在 文档上面展示？
   不同的方法，写在不同的文件中
 
+- [ ] 熟悉测试方法 https://github.yanhaixiang.com/jest-tutorial/
+- [ ] 添加 tailwindcss, 使用 https://daisyui.com/ 里的组件完善界面
+- [ ] 添加搜索功能
 - [ ] 文档中添加 `playground`
