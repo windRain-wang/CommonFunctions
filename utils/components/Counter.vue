@@ -1,18 +1,14 @@
 <script setup>
-import { ref } from 'vue'
+import {ref} from 'vue'
+
 const count = ref(0)
-function increase () {
-  count.value ++
+
+function increase() {
+  count.value++
 }
 </script>
 
 <template>
   <div>{{ count }}</div>
-  <button class="bg-sky-500/100" @click="increase">按钮</button>
+  <button class="btn btn-primary" @click="increase">Button</button>
 </template>
-
-<style>
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-</style>

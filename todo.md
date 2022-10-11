@@ -9,8 +9,8 @@
   不同的方法，写在不同的文件中
 
 - [ ] 熟悉测试方法 https://github.yanhaixiang.com/jest-tutorial/
-- [ ] 添加 tailwindcss, 使用 https://daisyui.com/ 里的组件完善界面
-- [ ] 添加搜索功能
+- [x] 添加 tailwindcss, 使用 https://daisyui.com/ 里的组件完善界面. tailwindcss 已添加， 文档build的还有问题。
+- [x] 添加搜索功能. 等待邮件回复
 - [ ] 文档中添加 `playground`
 - [ ] 添加完善工具函数
 - [ ] 添加正则显示
