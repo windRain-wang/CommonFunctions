@@ -12,3 +12,6 @@
 - [ ] 添加 tailwindcss, 使用 https://daisyui.com/ 里的组件完善界面
 - [ ] 添加搜索功能
 - [ ] 文档中添加 `playground`
+- [ ] 添加完善工具函数
+- [ ] 添加正则显示
+- [ ] node 生成 文件目录

@@ -32,6 +32,7 @@
     "node_modules",
     "vite.config.ts",
     "test/**/*.test.ts",
-    "utils/**/*.test.ts"
+    "utils/**/*.test.ts",
+    "tailwind.config.js"
   ]
 }
