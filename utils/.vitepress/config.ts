@@ -1,5 +1,4 @@
 import { defineConfig } from "vitepress";
-import './style.css'
 // import { version } from "../../package.json";
 
 export default defineConfig({

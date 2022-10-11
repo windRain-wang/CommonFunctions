@@ -10,3 +10,9 @@ function increase () {
   <div>{{ count }}</div>
   <button class="bg-sky-500/100" @click="increase">按钮</button>
 </template>
+
+<style>
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+</style>
