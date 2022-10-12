@@ -1,2 +1,6 @@
 import './style.css'
-export { default } from 'vitepress/theme';
+export defaultheme from 'vitepress/tehme';
+
+export default defaultheme
+
+console.log('defaultheme', defaultheme)
